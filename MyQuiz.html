@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My multiplication Quiz App</title>
+    <link rel="stylesheet" href="MyQuiz.css" />
+  </head>
+  <body style="background-color: rgb(87, 49, 174)">
+    <form class="form" id="form">
+      <h1>CHILDREN IQ TEST</h1>
+      <h4 class="scores" id="scores">Total Score: 0</h4>
+
+      <h1 id="question" style="font-family: cursive">
+        What is 1 Mulitiplied by 1?
+      </h1>
+
+      <input
+        type="text"
+        class="input"
+        id="input"
+        placeholder="Enter your answer here"
+        required
+        autofocus
+        autocomplete="off"
+      />
+
+      <button type="submit" class="btn">SUBMIT</button>
+      <h5 class="CorrectAns" id="CorrectAns">
+        <span id="view_ans"><span id="ans">View Correct Answer:</span></span
+        ><span id="correct_ans">0</span>
+      </h5>
+    </form>
+    <script src="MyQuiz.js"></script>
+  </body>
+</html>

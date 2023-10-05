@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.scores {
+    color: blue;
+    text-align: right;
+    font-size: 20px;
+}
+#ans{
+    color: rgb(182, 6, 213);
+    text-align: right;
+    font-size: 30px;
+    text-align: right;
+    padding-left: 50px;
+}
+#CorrectAns:hover{
+    cursor: pointer;
+}
+#correct_ans{
+    color: white;
+    text-align: right;
+    font-size: 20px;
+}
+#correct_ans:hover{
+    color: rgb(230, 22, 7);
+    font-size: larger;
+    font-weight: 100;
+    font-size: 35px;
+
+}
+.form {
+    background-color: aliceblue;
+    padding: 20%;
+    box-shadow: 0 4px 8px rgba(0, 0, 4, .3);
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+    border: solid 3px blue;
+    color: chartreuse;
+    box-sizing: border-box;
+
+}
+
+.input::placeholder {
+    font-family: 'Courier New', Courier, monospace;
+    color: coral;
+}
+
+.btn {
+    background-color: forestgreen;
+    color: white;
+    font-size: 25px;
+    font-family: cursive;
+    display: block;
+    margin: 20px 0;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 4px rgba(5, 0, 0, .3);
+}
+
+.btn:hover {
+    background-color: aqua;
+    transform: scale(1);
+    transition: .3s;
+    cursor: pointer;
+}
